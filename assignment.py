@@ -6,7 +6,7 @@ def main(page: ft.Page):
         helloText.visible = True
         page.update()
     showMessage = ft.ElevatedButton(text="Show Message", on_click=changeVisibility)
-    helloText = ft.Text(value="Hola", visible=False)
+    helloText = ft.Text(value="Adios", visible=False)
     page.add(showMessage, helloText)
 
 ft.app(main)
